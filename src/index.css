@@ -5,23 +5,41 @@
 }
 
 .portfolio__container {
-  padding: 1rem;
+  width: 720px;
+  padding-top: 1rem;
+  margin: auto;
 }
 
 .toolbar__list {
   display: flex;
-  width: 400px;
+  width: 48%;
   justify-content: space-between;
+  margin-bottom: 1rem;
 }
 
 .toolbar__item {
   list-style: none;
   border: 1px solid black;
-  padding: .5rem 1rem;
-
+  padding: .3rem .6rem;
 }
 
 .toolbar__item:hover {
   background-color: rgb(200, 200, 200);
   cursor: pointer;
+}
+
+.projects__container {
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+}
+
+.project_img {
+  margin-bottom: .5rem;
+  width: 32%;
+}
+
+.active {
+  background-color: rgb(80, 80, 80);
+  color: #ffffff;
 }
