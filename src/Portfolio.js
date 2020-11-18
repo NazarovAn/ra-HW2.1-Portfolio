@@ -27,7 +27,6 @@ export default function Portfolio() {
 
     if (filter === 'All') {
       return setProjects(allProjects);
-    } if (filter === 'Business Cards') {
     }
     
     const filtered = allProjects.filter((project) => project.category === filter);
